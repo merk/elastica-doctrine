@@ -1,0 +1,26 @@
+{
+    "name": "merk/elastica-doctrine",
+    "authors": [
+        {
+            "name": "Tim Nagel",
+            "email": "tim@nagel.com.au"
+        }
+    ],
+    "require": {
+        "doctrine/common": "@stable",
+        "ruflin/elastica": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "Elastica\\Doctrine\\": "lib/Elastica/Doctrine"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Elastica\\Test\\Doctrine\\": "test/Elastica/Test/Doctrine"
+        }
+    }
+}

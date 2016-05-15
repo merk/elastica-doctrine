@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<phpunit
+    bootstrap="./vendor/autoload.php"
+>
+    <filter>
+        <whitelist>
+            <directory>./lib/</directory>
+        </whitelist>
+    </filter>
+    <testsuites>
+        <testsuite name="elastica-doctrine">
+            <directory>./test</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
